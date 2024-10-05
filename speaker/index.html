@@ -119,7 +119,7 @@ word-break:normal;}:root :where(.wp-block-post-content){}:root :where(.wp-block-
 <link rel="stylesheet" id="contact-form-7-css" href="https://isinp.github.io/isinp-4/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8" media="all">
 <link rel="stylesheet" id="variations-frontend-style-css" href="https://isinp.github.io/isinp-4/wp-content/themes/variations/assets/css/frontend.css?ver=4.3.2" media="all">
 <link rel="stylesheet" id="fancybox-css" href="https://isinp.github.io/isinp-4/wp-content/plugins/easy-fancybox/fancybox/1.5.4/jquery.fancybox.min.css?ver=6.6.2" media="screen">
-<style id="fancybox-inline-css">#fancybox-outer{background:#ffffff}#fancybox-content{background:#ffffff;border-color:#ffffff;color:#000000;}#fancybox-title,#fancybox-title-float-main{color:#fff}</style>
+<style id="fancybox-inline-css">#fancybox-content{border-color:#ffffff;}#fancybox-title,#fancybox-title-float-main{color:#fff}</style>
 <script src="https://isinp.github.io/isinp-4/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script src="https://isinp.github.io/isinp-4/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="https://isinp.github.io/isinp-4/wp-json/">
@@ -195,15 +195,15 @@ word-break:normal;}:root :where(.wp-block-post-content){}:root :where(.wp-block-
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="500" height="87" src="https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/frontiers_in_NP_logo_500px-1.png" alt="" class="wp-image-928" style="object-fit:cover"></figure>
+<figure class="wp-block-image aligncenter size-full is-resized image-link"><a href="https://www.frontiersin.org/journals/network-physiology" target="_blank" rel="noreferrer noopener"><img decoding="async" width="500" height="87" src="https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/frontiers_in_NP_logo_500px-1.png" alt="" class="wp-image-928" style="object-fit:cover;width:500px;height:auto"></a></figure>
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="500" height="96" src="https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Fondazione_Alssandro_Volta_long_logo_500px-1.png" alt="" class="wp-image-929" style="object-fit:cover"></figure>
+<figure class="wp-block-image aligncenter size-full image-link"><a href="https://fondazionealessandrovolta.it/" target="_blank" rel="noreferrer noopener"><img loading="lazy" decoding="async" width="500" height="96" src="https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Fondazione_Alssandro_Volta_long_logo_500px-1.png" alt="" class="wp-image-929" style="object-fit:cover"></a></figure>
 
 
 
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
 
@@ -493,28 +493,22 @@ wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 <script src="https://isinp.github.io/isinp-4/wp-content/themes/variations/assets/js/frontend.js?ver=4.3.2" id="variations-frontend-script-js"></script>
 <script src="https://isinp.github.io/isinp-4/wp-content/plugins/easy-fancybox/vendor/purify.min.js?ver=6.6.2" id="fancybox-purify-js"></script>
 <script src="https://isinp.github.io/isinp-4/wp-content/plugins/easy-fancybox/fancybox/1.5.4/jquery.fancybox.min.js?ver=6.6.2" id="jquery-fancybox-js"></script>
-<script id="jquery-fancybox-js-after">
-var fb_timeout, fb_opts={'autoScale':true,'showCloseButton':true,'width':560,'height':340,'margin':20,'pixelRatio':'false','padding':10,'centerOnScroll':false,'enableEscapeButton':true,'speedIn':300,'speedOut':300,'overlayShow':true,'hideOnOverlayClick':true,'overlayColor':'#000','overlayOpacity':0.6,'minViewportWidth':320,'minVpHeight':320,'disableCoreLightbox':'true','enableBlockControls':'true','fancybox_openBlockControls':'true' };
+<script id="jquery-fancybox-js-after">var fb_timeout, fb_opts={'autoScale':true,'showCloseButton':true,'width':560,'height':340,'margin':20,'pixelRatio':'false','padding':10,'centerOnScroll':false,'enableEscapeButton':true,'speedIn':300,'speedOut':300,'overlayShow':true,'hideOnOverlayClick':true,'overlayColor':'#000','overlayOpacity':0.6,'minViewportWidth':320,'minVpHeight':320,'disableCoreLightbox':'true','enableBlockControls':'true','fancybox_openBlockControls':'true' };
 if(typeof easy_fancybox_handler==='undefined'){
 var easy_fancybox_handler=function(){
 jQuery([".nolightbox","a.wp-block-file__button","a.pin-it-button","a[href*='pinterest.com\/pin\/create']","a[href*='facebook.com\/share']","a[href*='twitter.com\/share']"].join(',')).addClass('nofancybox');
 jQuery('a.fancybox-close').on('click',function(e){e.preventDefault();jQuery.fancybox.close()});
 /* IMG */
-						var unlinkedImageBlocks=jQuery(".wp-block-image > img:not(.nofancybox,figure.nofancybox>img)");
-						unlinkedImageBlocks.wrap(function() {
-							var href = jQuery( this ).attr( "src" );
-							return "<a href='" + href + "'><\/a>";
-						});
 var fb_IMG_select=jQuery('a[href*=".jpg" i]:not(.nofancybox,li.nofancybox>a,figure.nofancybox>a),area[href*=".jpg" i]:not(.nofancybox),a[href*=".png" i]:not(.nofancybox,li.nofancybox>a,figure.nofancybox>a),area[href*=".png" i]:not(.nofancybox),a[href*=".webp" i]:not(.nofancybox,li.nofancybox>a,figure.nofancybox>a),area[href*=".webp" i]:not(.nofancybox),a[href*=".jpeg" i]:not(.nofancybox,li.nofancybox>a,figure.nofancybox>a),area[href*=".jpeg" i]:not(.nofancybox)');
 fb_IMG_select.addClass('fancybox image');
 var fb_IMG_sections=jQuery('.gallery,.wp-block-gallery,.tiled-gallery,.wp-block-jetpack-tiled-gallery,.ngg-galleryoverview,.ngg-imagebrowser,.nextgen_pro_blog_gallery,.nextgen_pro_film,.nextgen_pro_horizontal_filmstrip,.ngg-pro-masonry-wrapper,.ngg-pro-mosaic-container,.nextgen_pro_sidescroll,.nextgen_pro_slideshow,.nextgen_pro_thumbnail_grid,.tiled-gallery');
 fb_IMG_sections.each(function(){jQuery(this).find(fb_IMG_select).attr('rel','gallery-'+fb_IMG_sections.index(this));});
 jQuery('a.fancybox,area.fancybox,.fancybox>a').each(function(){jQuery(this).fancybox(jQuery.extend(true,{},fb_opts,{'transition':'elastic','transitionIn':'elastic','transitionOut':'elastic','opacity':false,'hideOnContentClick':false,'titleShow':true,'titlePosition':'over','titleFromAlt':true,'showNavArrows':true,'enableKeyboardNav':true,'cyclic':false,'mouseWheel':'true','changeSpeed':250,'changeFade':300}))});
+/* PDF */
+jQuery('a[href*=".pdf" i],area[href*=".pdf" i]').not('.nofancybox,li.nofancybox>a').addClass('fancybox-pdf');
+jQuery('a.fancybox-pdf,area.fancybox-pdf,.fancybox-pdf>a').each(function(){jQuery(this).fancybox(jQuery.extend(true,{},fb_opts,{'type':'iframe','onStart':function(a,i,o){o.type='pdf';},'width':'90%','height':'90%','padding':10,'titleShow':false,'titlePosition':'float','titleFromAlt':true,'autoDimensions':false,'scrolling':'no'}))});
 };};
-var easy_fancybox_auto=function(){setTimeout(function(){jQuery('a#fancybox-auto,#fancybox-auto>a').first().trigger('click')},1000);};
-jQuery(easy_fancybox_handler);jQuery(document).on('post-load',easy_fancybox_handler);
-jQuery(easy_fancybox_auto);
-</script>
+jQuery(easy_fancybox_handler);jQuery(document).on('post-load',easy_fancybox_handler);</script>
 <script src="https://isinp.github.io/isinp-4/wp-content/plugins/easy-fancybox/vendor/jquery.easing.min.js?ver=1.4.1" id="jquery-easing-js"></script>
 <script src="https://isinp.github.io/isinp-4/wp-content/plugins/easy-fancybox/vendor/jquery.mousewheel.min.js?ver=3.1.13" id="jquery-mousewheel-js"></script>
 </body>
