@@ -3,8 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	  <meta name="robots" content="max-image-preview:large">
+<meta name="robots" content="max-image-preview:large">
 <title>Contact US &#8211; Fourth International Summer Institute on Network Physiology</title>
 <link rel="alternate" type="application/rss+xml" title="Fourth International Summer Institute on Network Physiology &raquo; Feed" href="https://isinp.github.io/isinp-4/feed/">
 <link rel="alternate" type="application/rss+xml" title="Fourth International Summer Institute on Network Physiology &raquo; Comments Feed" href="https://isinp.github.io/isinp-4/comments/feed/">
@@ -75,6 +74,13 @@ background-color: #f9f9f9;
 
 .image-link img:hover {
     border: none; /* 鼠标悬停时边框消失 */
+}
+
+.lightbox img {
+    max-width: 100vw;  /* 最大宽度为视窗的宽度 */
+    max-height: 100vh; /* 最大高度为视窗的高度 */
+    width: auto;
+    height: auto;
 }:root :where(.wp-block-separator){}:root :where(.wp-block-separator:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull)){width: 100px}:root :where(p){hyphens: auto;
 text-align: justify;
 word-break:normal;}:root :where(.wp-block-post-content){}:root :where(.wp-block-image){max-width: 100%;}</style>
@@ -109,8 +115,9 @@ word-break:normal;}:root :where(.wp-block-post-content){}:root :where(.wp-block-
 			z-index: 100000;
 		}</style>
 <link rel="stylesheet" id="contact-form-7-css" href="https://isinp.github.io/isinp-4/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8" media="all">
-<link rel="stylesheet" id="wp-lightbox-2.min.css-css" href="https://isinp.github.io/isinp-4/wp-content/plugins/wp-lightbox-2/styles/lightbox.min.css?ver=1.3.4" media="all">
 <link rel="stylesheet" id="variations-frontend-style-css" href="https://isinp.github.io/isinp-4/wp-content/themes/variations/assets/css/frontend.css?ver=4.3.2" media="all">
+<link rel="stylesheet" id="fancybox-css" href="https://isinp.github.io/isinp-4/wp-content/plugins/easy-fancybox/fancybox/1.5.4/jquery.fancybox.min.css?ver=6.6.2" media="screen">
+<style id="fancybox-inline-css">#fancybox-outer{background:#ffffff}#fancybox-content{background:#ffffff;border-color:#ffffff;color:#000000;}#fancybox-title,#fancybox-title-float-main{color:#fff}</style>
 <script src="https://isinp.github.io/isinp-4/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script src="https://isinp.github.io/isinp-4/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="https://isinp.github.io/isinp-4/wp-json/">
@@ -263,8 +270,32 @@ wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 <script src="https://isinp.github.io/isinp-4/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.8" id="swv-js"></script>
 <script id="contact-form-7-js-extra">var wpcf7 = {"api":{"root":"https:\/\/isinp.github.io\/isinp-4\/wp-json\/","namespace":"contact-form-7\/v1"}};</script>
 <script src="https://isinp.github.io/isinp-4/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8" id="contact-form-7-js"></script>
-<script id="wp-jquery-lightbox-js-extra">var JQLBSettings = {"fitToScreen":"0","resizeSpeed":"400","displayDownloadLink":"0","navbarOnTop":"0","loopImages":"","resizeCenter":"","marginSize":"","linkTarget":"","help":"","prevLinkTitle":"previous image","nextLinkTitle":"next image","prevLinkText":"« Previous","nextLinkText":"Next »","closeTitle":"close image gallery","image":"Image ","of":" of ","download":"Download","jqlb_overlay_opacity":"80","jqlb_overlay_color":"#000000","jqlb_overlay_close":"1","jqlb_border_width":"10","jqlb_border_color":"#ffffff","jqlb_border_radius":"0","jqlb_image_info_background_transparency":"100","jqlb_image_info_bg_color":"#ffffff","jqlb_image_info_text_color":"#000000","jqlb_image_info_text_fontsize":"10","jqlb_show_text_for_image":"1","jqlb_next_image_title":"next image","jqlb_previous_image_title":"previous image","jqlb_next_button_image":"https:\/\/isinp.github.io\/isinp-4\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/next.gif","jqlb_previous_button_image":"https:\/\/isinp.github.io\/isinp-4\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/prev.gif","jqlb_maximum_width":"","jqlb_maximum_height":"","jqlb_show_close_button":"1","jqlb_close_image_title":"close image gallery","jqlb_close_image_max_heght":"22","jqlb_image_for_close_lightbox":"https:\/\/isinp.github.io\/isinp-4\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/closelabel.gif","jqlb_keyboard_navigation":"1","jqlb_popup_size_fix":"0"};</script>
-<script src="https://isinp.github.io/isinp-4/wp-content/plugins/wp-lightbox-2/js/dist/wp-lightbox-2.min.js?ver=1.3.4.1" id="wp-jquery-lightbox-js"></script>
 <script src="https://isinp.github.io/isinp-4/wp-content/themes/variations/assets/js/frontend.js?ver=4.3.2" id="variations-frontend-script-js"></script>
+<script src="https://isinp.github.io/isinp-4/wp-content/plugins/easy-fancybox/vendor/purify.min.js?ver=6.6.2" id="fancybox-purify-js"></script>
+<script src="https://isinp.github.io/isinp-4/wp-content/plugins/easy-fancybox/fancybox/1.5.4/jquery.fancybox.min.js?ver=6.6.2" id="jquery-fancybox-js"></script>
+<script id="jquery-fancybox-js-after">
+var fb_timeout, fb_opts={'autoScale':true,'showCloseButton':true,'width':560,'height':340,'margin':20,'pixelRatio':'false','padding':10,'centerOnScroll':false,'enableEscapeButton':true,'speedIn':300,'speedOut':300,'overlayShow':true,'hideOnOverlayClick':true,'overlayColor':'#000','overlayOpacity':0.6,'minViewportWidth':320,'minVpHeight':320,'disableCoreLightbox':'true','enableBlockControls':'true','fancybox_openBlockControls':'true' };
+if(typeof easy_fancybox_handler==='undefined'){
+var easy_fancybox_handler=function(){
+jQuery([".nolightbox","a.wp-block-file__button","a.pin-it-button","a[href*='pinterest.com\/pin\/create']","a[href*='facebook.com\/share']","a[href*='twitter.com\/share']"].join(',')).addClass('nofancybox');
+jQuery('a.fancybox-close').on('click',function(e){e.preventDefault();jQuery.fancybox.close()});
+/* IMG */
+						var unlinkedImageBlocks=jQuery(".wp-block-image > img:not(.nofancybox,figure.nofancybox>img)");
+						unlinkedImageBlocks.wrap(function() {
+							var href = jQuery( this ).attr( "src" );
+							return "<a href='" + href + "'><\/a>";
+						});
+var fb_IMG_select=jQuery('a[href*=".jpg" i]:not(.nofancybox,li.nofancybox>a,figure.nofancybox>a),area[href*=".jpg" i]:not(.nofancybox),a[href*=".png" i]:not(.nofancybox,li.nofancybox>a,figure.nofancybox>a),area[href*=".png" i]:not(.nofancybox),a[href*=".webp" i]:not(.nofancybox,li.nofancybox>a,figure.nofancybox>a),area[href*=".webp" i]:not(.nofancybox),a[href*=".jpeg" i]:not(.nofancybox,li.nofancybox>a,figure.nofancybox>a),area[href*=".jpeg" i]:not(.nofancybox)');
+fb_IMG_select.addClass('fancybox image');
+var fb_IMG_sections=jQuery('.gallery,.wp-block-gallery,.tiled-gallery,.wp-block-jetpack-tiled-gallery,.ngg-galleryoverview,.ngg-imagebrowser,.nextgen_pro_blog_gallery,.nextgen_pro_film,.nextgen_pro_horizontal_filmstrip,.ngg-pro-masonry-wrapper,.ngg-pro-mosaic-container,.nextgen_pro_sidescroll,.nextgen_pro_slideshow,.nextgen_pro_thumbnail_grid,.tiled-gallery');
+fb_IMG_sections.each(function(){jQuery(this).find(fb_IMG_select).attr('rel','gallery-'+fb_IMG_sections.index(this));});
+jQuery('a.fancybox,area.fancybox,.fancybox>a').each(function(){jQuery(this).fancybox(jQuery.extend(true,{},fb_opts,{'transition':'elastic','transitionIn':'elastic','transitionOut':'elastic','opacity':false,'hideOnContentClick':false,'titleShow':true,'titlePosition':'over','titleFromAlt':true,'showNavArrows':true,'enableKeyboardNav':true,'cyclic':false,'mouseWheel':'true','changeSpeed':250,'changeFade':300}))});
+};};
+var easy_fancybox_auto=function(){setTimeout(function(){jQuery('a#fancybox-auto,#fancybox-auto>a').first().trigger('click')},1000);};
+jQuery(easy_fancybox_handler);jQuery(document).on('post-load',easy_fancybox_handler);
+jQuery(easy_fancybox_auto);
+</script>
+<script src="https://isinp.github.io/isinp-4/wp-content/plugins/easy-fancybox/vendor/jquery.easing.min.js?ver=1.4.1" id="jquery-easing-js"></script>
+<script src="https://isinp.github.io/isinp-4/wp-content/plugins/easy-fancybox/vendor/jquery.mousewheel.min.js?ver=3.1.13" id="jquery-mousewheel-js"></script>
 </body>
 </html>
