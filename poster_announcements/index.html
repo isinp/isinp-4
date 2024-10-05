@@ -66,10 +66,20 @@ font-size: 22px;
 border: 2px solid #cccccc;
 border-radius: 6px;
 background-color: #f9f9f9;
+}
+
+.image-link img {
+    border: 4px solid rgb(82, 180, 255); /* 初始边框为2像素蓝色 */
+    padding: 1px; /* 内边距 */
+    transition: border 0.15s ease; /* 添加过渡效果，使边框消失时更平滑 */
+}
+
+.image-link img:hover {
+    border: none; /* 鼠标悬停时边框消失 */
 }:root :where(.wp-block-separator){}:root :where(.wp-block-separator:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull)){width: 100px}:root :where(p){hyphens: auto;
 text-align: justify;
 word-break:normal;}:root :where(.wp-block-post-content){}:root :where(.wp-block-image){max-width: 100%;}</style>
-<style id="core-block-supports-inline-css">.wp-container-core-navigation-is-layout-1{gap:0;justify-content:center;}.wp-elements-f9bfd34c912e92c8a9ef2144bd22c023 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--custom-black);}.wp-elements-593bfb268b8579de3437a1d2d2df98be a:where(:not(.wp-element-button)){color:var(--wp--preset--color--custom-red);}.wp-elements-acdef0ffd25e09e7ec2fd9daec1d6b23 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--custom-red);}.wp-elements-80e7afb784ef314db2c89d4577fcd725 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--custom-red);}.wp-elements-5ccadf69bc488bcd8b7404f045d58237 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--custom-red);}.wp-elements-4fcc542c7abba4a6551064ad291fb430 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--custom-red);}</style>
+<style id="core-block-supports-inline-css">.wp-container-core-navigation-is-layout-1{gap:0;justify-content:center;}.wp-elements-f9bfd34c912e92c8a9ef2144bd22c023 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--custom-black);}.wp-elements-593bfb268b8579de3437a1d2d2df98be a:where(:not(.wp-element-button)){color:var(--wp--preset--color--custom-red);}.wp-elements-acdef0ffd25e09e7ec2fd9daec1d6b23 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--custom-red);}.wp-elements-80e7afb784ef314db2c89d4577fcd725 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--custom-red);}.wp-elements-5ccadf69bc488bcd8b7404f045d58237 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--custom-red);}.wp-elements-edd9b8654856e6af8c095609b75e546b a:where(:not(.wp-element-button)){color:var(--wp--preset--color--custom-red);}</style>
 <style id="wp-block-template-skip-link-inline-css">.skip-link.screen-reader-text {
 			border: 0;
 			clip: rect(1px,1px,1px,1px);
@@ -168,7 +178,7 @@ word-break:normal;}:root :where(.wp-block-post-content){}:root :where(.wp-block-
 
 
 
-<figure class="wp-block-image aligncenter size-full is-resized"><a href="https://sites.google.com/site/labnetworkphysiology/home" target="_blank" rel="noreferrer noopener"><img decoding="async" width="700" height="700" src="https://isinp.github.io/isinp-4/wp-content/uploads/2024/09/Network_physiology_700px-3.jpg" alt="" class="wp-image-292" style="width:350px"></a></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="350" height="350" src="https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Network_physiology_logo_350px.jpg" alt="" class="wp-image-922" style="object-fit:cover"></figure>
 
 
 
@@ -176,11 +186,11 @@ word-break:normal;}:root :where(.wp-block-post-content){}:root :where(.wp-block-
 
 
 
-<figure class="wp-block-image aligncenter size-full is-resized"><img decoding="async" width="800" height="139" src="https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/frontiers_in_NP_logo_800px-1.png" alt="" class="wp-image-788" style="width:500px"></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="500" height="87" src="https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/frontiers_in_NP_logo_500px.png" alt="" class="wp-image-923" style="object-fit:cover"></figure>
 
 
 
-<figure class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="800" height="154" src="https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Fondazione_Alssandro_Volta_long_logo_800px-1.png" alt="" class="wp-image-787" style="width:500px"></figure>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="500" height="96" src="https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Fondazione_Alssandro_Volta_long_logo_500px.png" alt="" class="wp-image-924" style="object-fit:cover"></figure>
 
 
 
@@ -299,58 +309,58 @@ word-break:normal;}:root :where(.wp-block-post-content){}:root :where(.wp-block-
 
 
 
-<p class="has-custom-red-color has-text-color has-link-color wp-elements-4fcc542c7abba4a6551064ad291fb430" style="font-size:clamp(16.293px, 1.018rem + ((1vw - 3.2px) * 0.989), 25px);text-decoration:underline">Readings related to Network Physiology presenting first steps in building a dynamic Atlas of Physiological Systems &amp; Organ Interactions (The Human Physiolome)</p>
+<p class="has-custom-red-color has-text-color has-link-color wp-elements-edd9b8654856e6af8c095609b75e546b" style="font-size:clamp(16.293px, 1.018rem + ((1vw - 3.2px) * 0.989), 25px);text-decoration:underline">Readings related to Network Physiology presenting first steps in building a dynamic <em>Atlas of Physiological Systems &amp; Organ Interactions</em> —<em> The Human Physiolome</em></p>
 
 
 
 <ol style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30);line-height:1.5" class="wp-block-list">
 <li style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.682), 20px);">
-<em><a href="https://drive.google.com/file/d/1EBPteK4-WiOEZF5O2dSqFAM05a4Ibqs-/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>Network physiology reveals relations between network topology and physiologic function</strong></mark></a>. [ <a href="https://drive.google.com/file/d/1EBPteK4-WiOEZF5O2dSqFAM05a4Ibqs-/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a>]</em><br>Nature Communications 2012; 3: 702 doi: 10.10381/ncomms1705.</li>
+<em><a href="https://www.nature.com/articles/ncomms1705" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>Network physiology reveals relations between network topology and physiologic function</strong></mark></a>. [ <a href="https://drive.google.com/file/d/1EBPteK4-WiOEZF5O2dSqFAM05a4Ibqs-/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a>]</em><br>Nature Communications 2012; 3: 702 doi: 10.10381/ncomms1705.</li>
 
 
 
 <li style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.682), 20px);">
-<a href="https://drive.google.com/file/d/0B7ne-inxmYjGdDROc2dBWEI1dGs/view?resourcekey=0-eiKPf1qFHcJSdTE2QAt43w" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong><em>Network Physiology: how </em>organ <em>systems dynamically interact</em></strong></mark></a><em>. [ <a href="https://drive.google.com/file/d/0B7ne-inxmYjGdDROc2dBWEI1dGs/view?resourcekey=0-eiKPf1qFHcJSdTE2QAt43w" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a>]</em><br>PLOS ONE, 2015; 10(11): e0142143</li>
+<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0142143" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong><em>Network Physiology: how </em>organ <em>systems dynamically interact</em></strong></mark></a><em>. [ <a href="https://drive.google.com/file/d/0B7ne-inxmYjGdDROc2dBWEI1dGs/view?resourcekey=0-eiKPf1qFHcJSdTE2QAt43w" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a>]</em><br>PLOS ONE, 2015; 10(11): e0142143</li>
 
 
 
 <li style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.682), 20px);">
-<em><a href="https://drive.google.com/file/d/1Y3nhfdbn1khGxfzEhCWwnkm8rUoikYCt/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>Major component analysis of dynamic networks of physiologic organ interactions</strong></mark></a><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color">.</mark></em> <em>[ <a href="https://drive.google.com/file/d/1Y3nhfdbn1khGxfzEhCWwnkm8rUoikYCt/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a>]</em><br>Journal of Physics: Conference Series, 2015; 640: 012013</li>
+<em><a href="https://iopscience.iop.org/article/10.1088/1742-6596/640/1/012013" target="_blank" rel="noreferrer noopener"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color">Major component analysis of dynamic networks of physiologic organ interactions</mark></strong></a></em><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><em><a href="https://iopscience.iop.org/article/10.1088/1742-6596/640/1/012013" target="_blank" rel="noreferrer noopener">.</a></em> </mark><em>[ <a href="https://drive.google.com/file/d/1Y3nhfdbn1khGxfzEhCWwnkm8rUoikYCt/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a>]</em><br>Journal of Physics: Conference Series, 2015; 640: 012013</li>
 
 
 
 <li style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.682), 20px);">
-<a href="https://drive.google.com/file/d/0B7ne-inxmYjGc2FKSmhQcllDYjA/view?resourcekey=0-xZaTow6WlC5jnZr7rsDS8w" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong><em>Plasticity of brain </em>wave <em>network interactions </em>and <em>evolution across physiologic states</em></strong></mark></a><em> [ <a href="https://drive.google.com/file/d/0B7ne-inxmYjGc2FKSmhQcllDYjA/view?resourcekey=0-xZaTow6WlC5jnZr7rsDS8w" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a> ]</em><br>Frontiers in Neural Circuits, 2015; 9: 62.</li>
+<strong><a href="https://www.frontiersin.org/journals/neural-circuits/articles/10.3389/fncir.2015.00062/full" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><em>Plasticity of brain </em>wave <em>network interactions </em>and <em>evolution across physiologic states</em></mark></a></strong><em> [ <a href="https://drive.google.com/file/d/0B7ne-inxmYjGc2FKSmhQcllDYjA/view?resourcekey=0-xZaTow6WlC5jnZr7rsDS8w" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a> ]</em><br>Frontiers in Neural Circuits, 2015; 9: 62.</li>
 
 
 
 <li style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.682), 20px);">
-<em><a href="https://drive.google.com/file/d/1apzp0R9WprckhKMzCxm8-6Huhvpk_iSm/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>Coexisting forms of coupling and phase-transitions in physiological networks</strong></mark></a></em> <em>[ <a href="https://drive.google.com/file/d/1apzp0R9WprckhKMzCxm8-6Huhvpk_iSm/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a>]</em><br>Communications in Computer and Information Science 2014; 438: 270-287</li>
+<em><strong><a href="https://link.springer.com/chapter/10.1007/978-3-319-08672-9_33" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color">Coexisting forms of coupling and phase-transitions in physiological networks</mark></a></strong></em> <em>[ <a href="https://drive.google.com/file/d/1apzp0R9WprckhKMzCxm8-6Huhvpk_iSm/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a>]</em><br>Communications in Computer and Information Science 2014; 438: 270-287</li>
 
 
 
 <li style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.682), 20px);">
-<a href="https://drive.google.com/file/d/17s6Mm8OI9smyxarw-ZyjsXlU9N042C3e/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong><em>Network Physiology of Exercise: Vision </em>and <em>Perspectives</em></strong></mark></a><em> [ <a href="https://drive.google.com/file/d/17s6Mm8OI9smyxarw-ZyjsXlU9N042C3e/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a>]</em><br>Frontiers in Physiology 2020; 11: 611550.</li>
+<strong><a href="https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2020.611550/full" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><em>Network Physiology of Exercise: Vision </em>and <em>Perspectives</em></mark></a></strong><em> [ <a href="https://drive.google.com/file/d/17s6Mm8OI9smyxarw-ZyjsXlU9N042C3e/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a>]</em><br>Frontiers in Physiology 2020; 11: 611550.</li>
 
 
 
 <li style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.682), 20px);">
-<em><a href="https://drive.google.com/file/d/19bixh5pimi6h-u1_dTu8le3FLUZM2Kfn/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>The New Field of Network Physiology: Building the Human Physiolome</strong></mark></a> [ <a href="https://drive.google.com/file/d/19bixh5pimi6h-u1_dTu8le3FLUZM2Kfn/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a>]</em><br>Frontiers in Network Physiology, 2021; 1: 711778</li>
+<em><strong><a href="https://www.frontiersin.org/journals/network-physiology/articles/10.3389/fnetp.2021.711778/full" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color">The New Field of Network Physiology: Building the Human Physiolome</mark></a></strong> [ <a href="https://drive.google.com/file/d/19bixh5pimi6h-u1_dTu8le3FLUZM2Kfn/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a>]</em><br>Frontiers in Network Physiology, 2021; 1: 711778</li>
 
 
 
 <li style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.682), 20px);">
-<a href="https://drive.google.com/file/d/1lQsAzF3eOQze4huSnl7ii31MHIrvhAuh/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong><em>Ensemble of coupling forms </em>and <em>networks </em>among brain <em>rhythms as function of states </em>and cognition.</strong></mark></a> <em>[ <a href="https://drive.google.com/file/d/1lQsAzF3eOQze4huSnl7ii31MHIrvhAuh/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a>]</em><br>Communications Biology, 2022; 5: 82</li>
+<strong><a href="https://www.nature.com/articles/s42003-022-03017-4" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><em>Ensemble of coupling forms </em>and <em>networks </em>among brain <em>rhythms as function of states </em>and cognition.</mark></a></strong> <em>[ <a href="https://drive.google.com/file/d/1lQsAzF3eOQze4huSnl7ii31MHIrvhAuh/view" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></a>]</em><br>Communications Biology, 2022; 5: 82</li>
 
 
 
 <li style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.682), 20px);">
-<a href="https://drive.google.com/file/d/1H3nM-pD3eCK4Y7mpr0UwcDgkBRiN6zjS/view?usp=sharing" target="_blank" rel="noreferrer noopener"><em><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>Inter-muscular networks of synchronous muscle fiber activation</strong></mark></em></a>. [<a href="https://drive.google.com/file/d/1H3nM-pD3eCK4Y7mpr0UwcDgkBRiN6zjS/view?usp=sharing" target="_blank" rel="noreferrer noopener"><em><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></em></a>].&nbsp;<br>Frontiers in Network Physiology, 2022, 2: 1059793.</li>
+<em><strong><a href="https://www.frontiersin.org/journals/network-physiology/articles/10.3389/fnetp.2022.1059793/full" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color">Inter-muscular networks of synchronous muscle fiber activation</mark></a></strong></em>. [<a href="https://drive.google.com/file/d/1H3nM-pD3eCK4Y7mpr0UwcDgkBRiN6zjS/view?usp=sharing" target="_blank" rel="noreferrer noopener"><em><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></em></a>]. <br>Frontiers in Network Physiology, 2022, 2: 1059793.</li>
 
 
 
 <li style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.682), 20px);">
-<a href="https://drive.google.com/file/d/1u22MYKbaMw-M789ghEYhhCmTgmNGNAZc/view" target="_blank" rel="noreferrer noopener"><em><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>Dynamic networks of cortico-muscular interactions in sleep and neurodegenerative disorders</strong>.</mark></em></a> [<a href="https://drive.google.com/file/d/1u22MYKbaMw-M789ghEYhhCmTgmNGNAZc/view" target="_blank" rel="noreferrer noopener"><em><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></em></a>]<br>Frontiers in Network Physiology, 2023; 3: 1168677</li>
+<em><a href="https://www.frontiersin.org/journals/network-physiology/articles/10.3389/fnetp.2023.1168677/full" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>Dynamic networks of cortico-muscular interactions in sleep and neurodegenerative disorders</strong>.</mark></a></em> [<a href="https://drive.google.com/file/d/1u22MYKbaMw-M789ghEYhhCmTgmNGNAZc/view" target="_blank" rel="noreferrer noopener"><em><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-link-color-color"><strong>PDF</strong></mark></em></a>]<br>Frontiers in Network Physiology, 2023; 3: 1168677</li>
 </ol>
 
 
