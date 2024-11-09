@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://isinp.github.io/isinp-4/</loc>
-		<lastmod>2024-11-08T20:50:23+00:00</lastmod>
+		<lastmod>2024-11-08T21:27:52+00:00</lastmod>
 		<image:image>
 			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Network_physiology_logo_350px-1.jpg</image:loc>
 		</image:image>
@@ -72,28 +72,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Fondazione_Alssandro_Volta_long_logo_500px-1.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://isinp.github.io/isinp-4/poster_announcements/</loc>
-		<lastmod>2024-11-08T15:05:18+00:00</lastmod>
-		<image:image>
-			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Network_physiology_logo_350px.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/frontiers_in_NP_logo_500px.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Fondazione_Alssandro_Volta_long_logo_500px.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/11/ISINP-2025-Poster_900px-4.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/biopac_logo.jpeg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/09/Frontiers_Network_Physiology_logo.png</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -181,7 +159,7 @@
 	</url>
 	<url>
 		<loc>https://isinp.github.io/isinp-4/speaker/</loc>
-		<lastmod>2024-11-08T20:16:49+00:00</lastmod>
+		<lastmod>2024-11-09T04:11:45+00:00</lastmod>
 		<image:image>
 			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Network_physiology_logo_350px-1.jpg</image:loc>
 		</image:image>
@@ -219,7 +197,7 @@
 			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/James-W.-Holsapple-Phone.jpeg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/11/yaron-ilan.webp</image:loc>
+			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/11/Yaron_Ilan.jpg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Plamen-Phone.jpg</image:loc>
@@ -259,6 +237,28 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/11/zaikin_Alexey.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://isinp.github.io/isinp-4/poster_announcements/</loc>
+		<lastmod>2024-11-09T04:14:09+00:00</lastmod>
+		<image:image>
+			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Network_physiology_logo_350px.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/frontiers_in_NP_logo_500px.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Fondazione_Alssandro_Volta_long_logo_500px.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/11/ISINP-2025-Poster_900px-1.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/biopac_logo.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/09/Frontiers_Network_Physiology_logo.png</image:loc>
 		</image:image>
 	</url>
 </urlset>
