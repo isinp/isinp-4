@@ -62,19 +62,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://isinp.github.io/isinp-4/participants/</loc>
-		<lastmod>2024-11-08T15:04:43+00:00</lastmod>
-		<image:image>
-			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Network_physiology_logo_350px-1.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/frontiers_in_NP_logo_500px-1.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Fondazione_Alssandro_Volta_long_logo_500px-1.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://isinp.github.io/isinp-4/registration-form/</loc>
 		<lastmod>2024-11-08T15:06:18+00:00</lastmod>
 		<image:image>
@@ -136,8 +123,21 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://isinp.github.io/isinp-4/participants/</loc>
+		<lastmod>2024-11-15T18:54:55+00:00</lastmod>
+		<image:image>
+			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Network_physiology_logo_350px-1.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/frontiers_in_NP_logo_500px-1.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Fondazione_Alssandro_Volta_long_logo_500px-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://isinp.github.io/isinp-4/program/</loc>
-		<lastmod>2024-11-13T18:50:46+00:00</lastmod>
+		<lastmod>2024-11-15T19:22:38+00:00</lastmod>
 		<image:image>
 			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Network_physiology_logo_350px-1.jpg</image:loc>
 		</image:image>
@@ -151,7 +151,7 @@
 			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/09/ISINP-Booklet-2025_coverpage_800px.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/09/ISINP-2025_Speakers_timetable_22Sep2024.jpg</image:loc>
+			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/11/ISINP-2025_Time-Table.jpg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/09/4-1024x574-1.jpg</image:loc>
@@ -159,7 +159,7 @@
 	</url>
 	<url>
 		<loc>https://isinp.github.io/isinp-4/poster_announcements/</loc>
-		<lastmod>2024-11-13T18:56:08+00:00</lastmod>
+		<lastmod>2024-11-15T20:29:19+00:00</lastmod>
 		<image:image>
 			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Network_physiology_logo_350px.jpg</image:loc>
 		</image:image>
@@ -170,7 +170,7 @@
 			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Fondazione_Alssandro_Volta_long_logo_500px.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/11/ISINP-2025-Poster_900px.jpg</image:loc>
+			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/11/ISINP-2025-Poster_900ox.jpg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/biopac_logo.jpeg</image:loc>
@@ -181,7 +181,7 @@
 	</url>
 	<url>
 		<loc>https://isinp.github.io/isinp-4/speaker/</loc>
-		<lastmod>2024-11-15T16:01:24+00:00</lastmod>
+		<lastmod>2024-11-15T20:36:00+00:00</lastmod>
 		<image:image>
 			<image:loc>https://isinp.github.io/isinp-4/wp-content/uploads/2024/10/Network_physiology_logo_350px-1.jpg</image:loc>
 		</image:image>
